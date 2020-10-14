@@ -1,3 +1,5 @@
 This program is a simple python web scraper. Every 8 hours, it will iterate through a list of product URLs (in this case product pages for trading cards) and 
 will send an email for each product that drops below a certain price, which the program gets from the html on the site. I wrote this program to use with a 
-group of friends for a trading card game we all play, since the prices for cards tend to fluctuate often, so it's been really useful in a real life setting.
+group of friends for a trading card game we all play, since the prices for cards tend to fluctuate often, so it's been really useful in a real life setting. Right now,
+the program is configured for this specific trading card site, but it can easily be changed for ecommerce sites such as Amazon and can keep track of basically any number of
+different products.
